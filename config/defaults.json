@@ -1,0 +1,11 @@
+{
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "model": "qwen-mt-flash",
+  "idle_ms": 150,
+  "dismiss_ms": 20000,
+  "fixed_position": false,
+  "fixed_x": 0,
+  "fixed_y": 0,
+  "record_history": true,
+  "diagnostics_enabled": false
+}
