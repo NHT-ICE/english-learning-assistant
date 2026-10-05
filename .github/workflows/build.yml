@@ -1,0 +1,30 @@
+name: Build Windows portable package
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Build
+        shell: pwsh
+        run: ./build.ps1
+      - name: Regression tests
+        shell: pwsh
+        run: ./test.ps1
+      - name: Save portable package
+        uses: actions/upload-artifact@v7
+        with:
+          name: EnglishLearningAssistant-win-x64
+          path: release/*.zip
+          if-no-files-found: error

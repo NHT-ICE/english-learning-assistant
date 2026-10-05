@@ -1,0 +1,29 @@
+# Generated binaries and packages
+/build/
+/release/
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.lib
+*.exp
+
+# Local credentials, typed text and diagnostics (defaults.json is a safe template)
+settings.json
+.secrets/
+.env
+.env.*
+history/
+*.jsonl
+*-status.json
+*-diagnostics.json
+*-test-results.json
+*-api-response.json
+
+# Editor files
+.vs/
+.idea/
+*.user
+*.suo
