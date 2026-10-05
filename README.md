@@ -6,7 +6,7 @@
 
 ## 下载与使用
 
-请在本仓库的 [Releases](https://github.com/NHT-ICE/english-learning-assistant/releases) 页面下载 `EnglishLearningAssistant-版本-win-x64.zip`。GitHub 的“Download ZIP”下载的是源码，不能直接运行。
+**[直接下载 Windows x64 运行版（约 172 KB）](https://github.com/NHT-ICE/english-learning-assistant/releases/download/v1.0.0-beta1/EnglishLearningAssistant-1.0.0-beta1-win-x64.zip)**，或查看 [版本说明与其他下载](https://github.com/NHT-ICE/english-learning-assistant/releases/tag/v1.0.0-beta1)。GitHub 的“Download ZIP”下载的是源码，不能直接运行。
 
 1. 解压到自己可写的目录，双击 `EnglishLearningAssistant.exe`。
 2. 按首次使用窗口的链接注册阿里云、开通百炼并创建自己的 API Key。
